@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Projects</title>
+</head>
+<body>
+    <div>
+        <h1 id="pageheader">DH Project Archival</h1>
+    </div>
+    <div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="aboutme.html">About Me</a>
+
+        </nav>
+    </div>
+    <div>
+        <p class="boldheading">Game Genie Address Decoder</p>
+        <p class="whitetext">This was the first homebrew program that I had written from scratch, and its purpose was to decode the
+            Game Genie format into an address:patch format, as the Game Genie format is convoluted and involves many bit shifts
+            across several byte boundaries. <a href="https://www.dropbox.com/s/r6tux07hmrnx2c5/GGATT.rar?dl=0">LINK</a>
+        </p>
+        <p class="boldheading">ISO9660 SCD</p>
+        <p class="whitetext">This is a program which generates a readable disk image to the ISO 9660 standards, created to allow for
+            more flexibility with input data, designed for Sega CD games to follow the format listed in the technical specifications
+            that the other ISO file system programs seem to struggle with. [LINK MISSING, MAY BE LOST :()]
+
+        </p>
+        <p class="boldheading">Mega Drive Input Test</p>
+        <p class="whitetext">This was a controller diagnostic ROM I had created for the Mega Drive designed to test controller
+            inputs over a 2 second window. Since these consoles are getting older and the internals are wearing down, it's tailor
+            made to test actual hardware with a flashcart. <a href="https://www.dropbox.com/s/5l4zzhp59my53w3/ROM.bin?dl=0">LINK</a>
+        </p>
+        <p class="boldheading">Sega Master System Checksum Fixer:</p>
+        <p class="whitetext">This was a project I had created to fix the checksum that the Master System would check to allow
+            homebrew games to run, as the bootstrap ROM's code wouldn't allow the game to run if the checksum was incorrect.
+            I later found out that flashcarts wouldn't check the checksum somehow, however I still feel that it was a good
+            exercise in translating Z80 code to C, especially for the checksum calculation which uses an 'add with carry'
+            instruction which takes advantage of the Z80 processor's internal carry flag. <a href="https://github.com/Dandaman955/MSChecksumFixer">LINK</a>
+        </p>
+        <p class="boldheading">Mega Drive RPG Game:</p>
+        <p class="whitetext">This is the first major project I had taken on, I wanted to create my own custom RPG on the Sega Mega
+            Drive, while I managed to get a prototype battle system, sprite system and overworld programmed in, the project has been
+            stuck in a pre-alpha state since 2019. [LINK MISSING, MAY BE LOST :()]
+        </p>
+    </div>
+    <div>
+        <footer>Created by Daniel Hall for Week 3 of CodeNation - 2022</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+* {
+    background-color: rgb(30, 30, 120);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    font-size: 2em;
+    padding: 0em;
+    border-radius: 0.25em;
+    margin: 0em;
+    margin-bottom: 1em;
+    background-color: rgb(23, 90, 206);
+    justify-content: space-evenly;
+}
+
+img {
+    float: left;
+    margin-right: 1em;
+}
+
+nav a {
+    background-color: rgb(23, 90, 206);
+    color: white;
+    text-decoration: none;
+    padding: 0.25em 1.8em;
+}
+
+nav a:hover {
+    background-color: #0a7ee4;
+    border-radius: 0.25em;
+    transition: 0.5s;
+}
+
+#pageheader {
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    color: #FFFFFF;
+}
+
+p a {
+    text-decoration: none;
+}
+
+#welcomein {
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    color: #FFFFFF;   
+}
+
+#aboutmeparagraph {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.boldheading {
+    font-size: 1.65em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.whitetext {
+    font-size: 1.35em;
+    color: #FFFFFF;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(23, 90, 206);
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
